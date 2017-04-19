@@ -7,14 +7,11 @@ package com.mycompany.mavemweb.Controlador;
 
 import com.mycompany.mavemweb.DAO.ContaDAO;
 import com.mycompany.mavemweb.DAO.LancDAO;
-import com.mycompany.mavemweb.Modelo.Razao;
 import com.mycompany.mavemweb.Modelo.Tabconta;
 import com.mycompany.mavemweb.Modelo.Tablanc;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Date;
 import java.util.List;
-import javafx.scene.control.TableColumn.CellEditEvent;
 import javax.annotation.PostConstruct;
 import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
