@@ -19,7 +19,7 @@ public class JPAUtil implements Serializable {
     public static EntityManagerFactory getEMF() {
     
         if (emf == null){
-            emf = Persistence.createEntityManagerFactory("com.mycompany_MavemWEB_war_1.0-SNAPSHOTPU", PersistenceProperties.get());
+            emf = Persistence.createEntityManagerFactory("com.mycompany_MavemWEB_war_1.0-SNAPSHOTPU");
         }
         return emf;
     }
